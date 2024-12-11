@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+#t1{
+    position: absolute;  
+      font-size: 100px;
+      left: 30%;
+      top: 8%;
+    }
+.header{
+    background-image: url(imagenes/FONDO\ BLANCO.jfif);
+    min-height: 40vh;
+}
+.etiquetas{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.etiquetas .navbar ul li{
+    position: relative;
+    float: left;
+}
+.etiquetas .navbar ul li a{
+    font-size: 18px;
+    padding: 20px;
+    color: rgb(0, 0, 0);
+    display: block;
+
+}
+.img1{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+
+    z-index: -1;
+}
+
+input{
+    position: relative;
+    left: 44%;
+    display: block;
+    width: 200px;
+    height: 30px;
+border-radius: 15px 15px 20px;
+}
+.formulario{
+  
+    text-align: center;
+    margin-top: 20px;
+    margin: 20px;
+    font-size: 20px;
+}
+

@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+   box-sizing: border-box;
+}
+
+.header{
+    background-image: url(imagenes/FONDO\ BLANCO.jfif);
+    min-height: 40vh;
+  
+    
+}
+.etiquetas{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.etiquetas .navbar ul li{
+    position: relative;
+    float: left;
+}
+.etiquetas .navbar ul li a{
+    font-size: 18px;
+    padding: 20px;
+    color: rgb(0, 0, 0);
+    display: block;
+
+}
+#t1{
+    position: absolute;  
+      font-size: 100px;
+      left: 30%;
+      top: 8%;
+      
+    }
+    .t3{
+        margin-top: 40px;
+        display: block;
+        text-align: center;
+        font-size: 40px;
+    }
+
+    
+    #imgf{
+        width: 300px;
+        height: 300px;
+        position: absolute;
+        left: 70%;
+      bottom: 5px;
+       
+    }
+    #imga{
+        width: 300px;
+        height:300px ;
+        position: absolute;
+        bottom: 50px;
+        top: 700px;
+    }
+  p{
+        margin-top:70px ;
+        font-size: 40px;
+        position: absolute;
+        left: 2%;
+    }
+   .gif{
+    width: 390px;
+    height: 350px ;
+    position: absolute;
+    left: 35%;
+    bottom: 15px;
+   }
+  
+

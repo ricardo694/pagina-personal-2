@@ -1,0 +1,31 @@
+*{
+margin: 0;
+padding: 0;
+text-decoration: none;
+box-sizing: border-box;
+}
+.header{
+    background-image: url(imagenes/FONDO\ BLANCO.jfif);
+    min-height: 40vh;
+}
+.conteiner{
+   background-color: gainsboro;
+   box-shadow: 20px 20px 20px;
+    font-size: 30%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+        position: absolute;  
+          font-size: 70px;
+          left: 28%;
+          right: 17%;
+          top: 50%;
+}
+#t1{
+    position: absolute;  
+      font-size: 150px;
+      left: 30%;
+      top: 8%;
+      
+    }
